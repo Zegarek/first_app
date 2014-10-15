@@ -2,14 +2,10 @@
 
 one:
   name: MyString
-  string: MyString
-  featured: MyString
-  boolean: MyString
+  featured: false
   category_id: 1
 
 two:
   name: MyString
-  string: MyString
-  featured: MyString
-  boolean: MyString
+  featured: false
   category_id: 1

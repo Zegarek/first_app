@@ -1,0 +1,9 @@
+<table border=1 style="width:100%">
+<% @category.each do |x| %>
+	<tr>
+	<td><%= x.id%></td>
+	<td><%= x.name%></td>
+	</tr>
+<% end %>
+</table>
+<p><%= link_to "Main", root_url %></p>

@@ -1,0 +1,4 @@
+<p><%= @category.name %>(<%= @category.items.count %>)</p>
+<% @category.items.each do |x| %>
+	<li><%= x.name %></li>
+<% end %>
